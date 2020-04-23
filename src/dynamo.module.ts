@@ -1,7 +1,7 @@
 import { DynamicModule, Global, Module } from '@nestjs/common';
 import { DynamoService } from './dynamo.service';
 import { DynamoOptions, IDynamoService } from './dynamo.interface';
-import { DYNAMO_CONNECTION, DYNAMO_OPTIONS } from './dynamo';
+import { DYNAMO_CONNECTION, DYNAMO_OPTIONS } from './constants';
 
 export const connectionFactory = {
   provide: DYNAMO_CONNECTION,

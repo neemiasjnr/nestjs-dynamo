@@ -3,7 +3,7 @@ import DynamoDB = require('aws-sdk/clients/dynamodb');
 
 import { DataMapper } from '@aws/dynamodb-data-mapper';
 import { DynamoOptions, IDynamoService } from './dynamo.interface';
-import { DYNAMO_OPTIONS } from './dynamo';
+import { DYNAMO_OPTIONS } from './constants';
 
 @Injectable()
 export class DynamoService implements IDynamoService {
